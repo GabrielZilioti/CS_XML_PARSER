@@ -1,8 +1,8 @@
 ﻿using System.IO;
 using System.Xml;
-using System.Xml.Linq;
 
 var files = Directory.GetFiles("C:/Users/A376228/Desktop/xml", "*.xml", SearchOption.AllDirectories);
+
 foreach (var file in files)
 {
     XmlDocument xml = new XmlDocument();
