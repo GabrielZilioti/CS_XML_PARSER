@@ -11,4 +11,4 @@ foreach (XmlNode node in nodeList)
 {
     node.ParentNode.RemoveChild(node);
 }
-xml.Save(/*filename: "C:/Users/A376228/Desktop/xml/ped1-ready.xml"*/);
+xml.Save(filename: "C:/Users/A376228/Desktop/xml/ped1-ready.xml");
