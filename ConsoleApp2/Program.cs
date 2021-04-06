@@ -6,8 +6,6 @@ using System.Xml;
   Year   :2021
 */
 
-
-
 var files = Directory.GetFiles("C:/Users/A376228/Desktop/xml", "*.xml", SearchOption.AllDirectories);
 
 foreach (var file in files)
